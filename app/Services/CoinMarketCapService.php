@@ -5,6 +5,8 @@ namespace App\Services;
 use App\Models\MarketPair;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+use Throwable;
 
 class CoinMarketCapService
 {
@@ -85,13 +87,19 @@ class CoinMarketCapService
     {
         $key = config('services.coinmarketcap.key');
 
-        if (! $key) {
+        if (! $key || empty($symbols)) {
             return [];
         }
 
         $cacheKey = self::CACHE_KEY . ':' . md5(implode(',', $symbols));
 
-        return Cache::remember($cacheKey, now()->addMinutes(5), function () use ($key, $symbols) {
+        $cached = Cache::get($cacheKey);
+
+        if (is_array($cached)) {
+            return $cached;
+        }
+
+        try {
             $response = Http::withHeaders([
                 'X-CMC_PRO_API_KEY' => $key,
                 'Accept' => 'application/json',
@@ -101,11 +109,31 @@ class CoinMarketCapService
             ]);
 
             if (! $response->successful()) {
+                Log::warning('CoinMarketCap quotes request failed.', [
+                    'status' => $response->status(),
+                    'symbols' => $symbols,
+                ]);
+
                 return [];
             }
 
-            return $response->json('data', []);
-        });
+            $data = $response->json('data', []);
+
+            if (! is_array($data)) {
+                return [];
+            }
+
+            Cache::put($cacheKey, $data, now()->addMinutes(5));
+
+            return $data;
+        } catch (Throwable $exception) {
+            Log::warning('CoinMarketCap quotes sync failed.', [
+                'symbols' => $symbols,
+                'message' => $exception->getMessage(),
+            ]);
+
+            return [];
+        }
     }
 
     public function latestListings(int $limit = 100): array
@@ -116,7 +144,14 @@ class CoinMarketCapService
             return [];
         }
 
-        return Cache::remember(self::LISTINGS_CACHE_KEY . ':' . $limit, now()->addMinutes(5), function () use ($key, $limit) {
+        $cacheKey = self::LISTINGS_CACHE_KEY . ':' . $limit;
+        $cached = Cache::get($cacheKey);
+
+        if (is_array($cached)) {
+            return $cached;
+        }
+
+        try {
             $response = Http::withHeaders([
                 'X-CMC_PRO_API_KEY' => $key,
                 'Accept' => 'application/json',
@@ -127,10 +162,30 @@ class CoinMarketCapService
             ]);
 
             if (! $response->successful()) {
+                Log::warning('CoinMarketCap listings request failed.', [
+                    'status' => $response->status(),
+                    'limit' => $limit,
+                ]);
+
                 return [];
             }
 
-            return $response->json('data', []);
-        });
+            $data = $response->json('data', []);
+
+            if (! is_array($data)) {
+                return [];
+            }
+
+            Cache::put($cacheKey, $data, now()->addMinutes(5));
+
+            return $data;
+        } catch (Throwable $exception) {
+            Log::warning('CoinMarketCap listings sync failed.', [
+                'limit' => $limit,
+                'message' => $exception->getMessage(),
+            ]);
+
+            return [];
+        }
     }
 }

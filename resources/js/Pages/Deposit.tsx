@@ -20,7 +20,7 @@ interface DepositProps {
 }
 
 export default function Deposit({ methods }: DepositProps) {
-  const [selectedMethod, setSelectedMethod] = useState(methods[0]);
+  const [selectedMethod, setSelectedMethod] = useState<DepositMethod | null>(methods[0] ?? null);
   const [copied, setCopied] = useState(false);
   const { data, setData, post, processing, errors } = useForm({
     deposit_method_id: methods[0]?.id ?? 0,
@@ -29,6 +29,10 @@ export default function Deposit({ methods }: DepositProps) {
   });
 
   const handleCopy = () => {
+    if (!selectedMethod?.address) {
+      return;
+    }
+
     navigator.clipboard.writeText(selectedMethod.address);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
@@ -45,9 +49,32 @@ export default function Deposit({ methods }: DepositProps) {
   };
 
   const usdAmount = parseFloat(data.amount || '0');
-  const cryptoEstimate = selectedMethod.usd_price && usdAmount > 0
+  const cryptoEstimate = selectedMethod?.usd_price && usdAmount > 0
     ? usdAmount / selectedMethod.usd_price
     : 0;
+
+  if (!selectedMethod) {
+    return (
+      <AppLayout>
+        <Head title="Deposit" />
+        <header className="mb-8 flex flex-col gap-1">
+          <h1 className="text-3xl font-bold bg-gradient-to-r from-white to-zinc-500 bg-clip-text text-transparent capitalize tracking-tight">Deposit</h1>
+          <p className="text-zinc-500 text-sm font-medium">Fund your account securely.</p>
+        </header>
+        <div className="max-w-2xl">
+          <div className="bg-[#111] border border-[#1A1A1A] rounded-3xl p-6 lg:p-8 space-y-3">
+            <h2 className="text-xl font-bold text-white">No deposit methods available</h2>
+            <p className="text-sm text-zinc-400 leading-relaxed">
+              There are currently no active deposit methods configured by the admin, so this page cannot accept a deposit request yet.
+            </p>
+            <p className="text-xs text-zinc-500 uppercase tracking-widest">
+              Admin action required: create or reactivate at least one deposit method.
+            </p>
+          </div>
+        </div>
+      </AppLayout>
+    );
+  }
 
   return (
     <AppLayout>
