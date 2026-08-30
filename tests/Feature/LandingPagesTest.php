@@ -25,10 +25,10 @@ class LandingPagesTest extends TestCase
         }
     }
 
-    public function test_landing_page_mentions_cognizant_promarket(): void
+    public function test_landing_page_mentions_waxxmarket(): void
     {
         $this->get('/')
             ->assertOk()
-            ->assertSee('Cognizant ProMarket', false);
+            ->assertSee('WaxxMarket', false);
     }
 }

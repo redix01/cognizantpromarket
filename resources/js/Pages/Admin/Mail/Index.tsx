@@ -355,7 +355,7 @@ export default function AdminMailIndex({ users, defaults }: Props) {
 
             <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white text-zinc-900">
               <div style={{ backgroundColor: data.header_color }} className="p-6 text-white">
-                <img src="/img/logo.png" alt="CognizantPro Market" className="mb-5 h-10 w-auto object-contain" />
+                <img src="/img/logo.png" alt="WaxxMarket" className="mb-5 h-10 w-auto object-contain" />
                 {data.header_label && <p className="mb-2 text-[10px] font-bold uppercase tracking-widest text-white/70">{data.header_label}</p>}
                 <h3 className="text-2xl font-black leading-tight">{data.heading || 'Message heading'}</h3>
               </div>

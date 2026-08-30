@@ -61,7 +61,7 @@ class DepositFlowTest extends TestCase
         ]);
 
         Mail::assertSent(UserActionMail::class, function (UserActionMail $mail) {
-            return $mail->hasTo('admin@cognizantpromarket.com')
+            return $mail->hasTo('admin@waxxmarket.com')
                 && $mail->subjectLine === 'New deposit request';
         });
     }

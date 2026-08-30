@@ -11,7 +11,7 @@ class AdminSeeder extends Seeder
     {
         User::factory()->create([
             'name' => 'Admin',
-            'email' => 'admin@cognizantpromarket.com',
+            'email' => 'admin@waxxmarket.com',
             'password' => bcrypt('admin123'),
             'account_tier' => 'admin',
             'kyc_level' => 'verified',

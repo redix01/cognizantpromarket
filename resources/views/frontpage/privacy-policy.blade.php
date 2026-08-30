@@ -38,7 +38,7 @@
 <link href="css/animate.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/intlTelInput.css">
 
-<title>Cognizant ProMarket</title>
+<title>WaxxMarket</title>
 <link rel="manifest" href="js/manifest.json">
 <meta name="theme-color" content="#0C0F19">
 <meta name="msapplication-navbutton-color" content="#0C0F19">
@@ -54,12 +54,12 @@
 <link href="{{ asset("favicon.ico") }}" rel="icon" type="image/x-icon" />
 <link rel="icon" sizes="192x192" href="{{ asset("frontpage/images/logo.png") }}">
 
-<meta name="keywords" content="Cognizant ProMarket, Options, Crypto" />
+<meta name="keywords" content="WaxxMarket, Options, Crypto" />
 <meta property="og:image" content="images/logo.png" />
-<meta property="og:site_name" content="Cognizant ProMarket">
-<meta property="og:title" content="Crypto Trading With Cognizant ProMarket" />
-<meta name="description" content="Crypto Trading With Cognizant ProMarket, is totally different from its competitors trying to achieve something special starting with the...">
-<meta property="og:description" content="Crypto Trading With Cognizant ProMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:site_name" content="WaxxMarket">
+<meta property="og:title" content="Crypto Trading With WaxxMarket" />
+<meta name="description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
 <meta property="og:type" content="website" />
 
 <script src="js/bootstrap-select.js"></script>
@@ -405,15 +405,15 @@ $(document).ready(function(){
 		<p>We help traders to develop the knowledge and skills they need to trade efficiently and responsibly.</p>
 		<h2>Introduction</h2>
 		<p>As part of our daily business operations, we collect personal information from our clients and prospective clients in order to provide them with our products and services, and ensure that we can meet their needs when providing these products and services, as well as when providing them with any respective information.</p>
-		<p>Your privacy is of utmost importance to us, and it is our policy to safeguard and respect the confidentiality of information and the privacy of individuals. This Privacy Notice sets out how Cognizant ProMarket products and services provided in the U.S and all across the globe collects, uses and manages the personal information we receive from you, or a third party, in connection with our provision of services to you or which we collect from your use of our services and/or our website. The Privacy Notice also informs you of your rights with respect to the processing of your personal information.</p><p>Our Privacy Notice is reviewed regularly to ensure that any new obligations and technologies, as well as any changes to our business operations and practices are taken into consideration, as well as that it remains abreast of the changing regulatory environment. Any personal information we hold will be governed by our most recent Privacy Notice.</p>
+		<p>Your privacy is of utmost importance to us, and it is our policy to safeguard and respect the confidentiality of information and the privacy of individuals. This Privacy Notice sets out how WaxxMarket products and services provided in the U.S and all across the globe collects, uses and manages the personal information we receive from you, or a third party, in connection with our provision of services to you or which we collect from your use of our services and/or our website. The Privacy Notice also informs you of your rights with respect to the processing of your personal information.</p><p>Our Privacy Notice is reviewed regularly to ensure that any new obligations and technologies, as well as any changes to our business operations and practices are taken into consideration, as well as that it remains abreast of the changing regulatory environment. Any personal information we hold will be governed by our most recent Privacy Notice.</p>
 		<p>Please note that if you are an employee of the Company, a contractor to the Company or a third-party provider, your personal information will be used in connection with your employment contract or your contractual relationship, whichever applies.</p>
-		<p>This Privacy Notice applies to the processing activities performed by Cognizant ProMarket to the personal information of its clients and its potential clients and website visitors.</p>
+		<p>This Privacy Notice applies to the processing activities performed by WaxxMarket to the personal information of its clients and its potential clients and website visitors.</p>
 		<p>We may amend this Privacy Notice at any time by posting the amended version on this site including the effective date of the amended version. We will announce any material changes to this Privacy Notice on our website.</p>
 		<h2>Definitions</h2>
 		<p>2.1 As used herein, the following terms are defined as follows:</p>
 		<p>2.1.1 “Digital Asset” is a digital representation of value (also referred to as “cryptocurrency,” “virtual currency,” “digital currency,” “crypto token,” “crypto asset,” or “digital commodity”), such as bitcoin, XRP or ether, which is based on the cryptographic protocol of a computer network that may be (i) centralized or decentralized, (ii) closed or open-source, and (iii) used as a medium of exchange and/or store of value.</p>
-		<p>2.1.2 “Cognizant ProMarket Account” means a user-accessible account offered via the Cognizant ProMarket services where Digital Assets are stored.</p>
-		<p>2.1.3 “We,” and “Us” refers to Cognizant ProMarket.</p>
+		<p>2.1.2 “WaxxMarket Account” means a user-accessible account offered via the WaxxMarket services where Digital Assets are stored.</p>
+		<p>2.1.3 “We,” and “Us” refers to WaxxMarket.</p>
 		<p>2.1.4 “Personal Information” or “Personal Data” or “your data” refers to any information relating to you, as an identified or identifiable natural person, including your name, an identification number, location data, or an online identifier or to one or more factors specific to the physical, economic, cultural or social identity of you as a natural person.</p>
 		<h2>Your Data Controller</h2>
 		<p>We are responsible for the collection, use, disclosure, retention and protection of your personal information in accordance with our global privacy standards, this Privacy Notice, as well as any applicable national laws. We use encryption to protect your information and store decryption keys in separate systems. We process and retain your personal information on our servers in multiple data center locations, including the European Union, Japan, Singapore, the United States of America and elsewhere in the world.</p>
@@ -506,7 +506,7 @@ $(document).ready(function(){
     <div class="gtranslate_wrapper mx-auto d-flex justify-content-center"></div>
 <script>window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":24,"switcher_horizontal_position":"inline","alt_flags":{"en":"usa"}}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
-    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 Cognizant ProMarket. All rights reserved.</p>
+    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WaxxMarket. All rights reserved.</p>
   </div>
 
 </footer>

@@ -1,0 +1,1 @@
+import{t as e}from"./app-ALFk5ILt.js";var t=e();function n({value:e,className:n=``,children:r,...i}){return(0,t.jsx)(`label`,{...i,className:`block text-[10px] font-bold text-zinc-500 uppercase tracking-widest `+n,children:e||r})}export{n as t};
