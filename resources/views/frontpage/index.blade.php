@@ -397,7 +397,7 @@ $(document).ready(function(){
     <button class="navbar-toggler py-4" type="button">
     <i class="ri-menu-3-line text-white"></i>
     </button>
-</nav><div class="hero-image">
+</nav><div class="hero-image hero-banner">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-6 col-12">
@@ -408,7 +408,7 @@ $(document).ready(function(){
 						<p class="wow slideInLeft my-4"> </p>
 					</div>
 					<a href="{{ route("register") }}" class="btn btn-primary btn-lg px-4 rounded-md mr-1">Get Started</a>
-					<a href="{{ route("login") }}" class="btn btn-outline-light btn-lg px-4 rounded-md">Login</a>
+					<a href="{{ route("login") }}" class="btn btn-outline-dark btn-lg px-4 rounded-md">Login</a>
 				</div>
 			</div>
 			<div class="col-md-6 col-12 wow slideInRight">
