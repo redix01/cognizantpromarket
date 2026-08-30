@@ -21,7 +21,7 @@ class PlatformSettingsService
 
     public function getAdminMailAddress(): string
     {
-        return (string) ($this->get('mail_admin_address') ?: config('mail.admin_address', 'admin@waxxmarket.com'));
+        return (string) ($this->get('mail_admin_address') ?: config('mail.admin_address', 'admin@wexmarket.com'));
     }
 
     public function getAdminMailName(): string
@@ -103,8 +103,8 @@ class PlatformSettingsService
                 'label' => 'Site Name',
                 'description' => 'Platform name shown across the admin-managed experience.',
                 'type' => 'text',
-                'default' => 'WaxxMarket',
-                'placeholder' => 'WaxxMarket',
+                'default' => 'WexMarket',
+                'placeholder' => 'WexMarket',
             ],
             'site_description' => [
                 'group' => 'General',
@@ -119,8 +119,8 @@ class PlatformSettingsService
                 'label' => 'Support Email',
                 'description' => 'Primary email address shown for customer support.',
                 'type' => 'email',
-                'default' => 'support@waxxmarket.com',
-                'placeholder' => 'support@waxxmarket.com',
+                'default' => 'support@wexmarket.com',
+                'placeholder' => 'support@wexmarket.com',
             ],
             'support_phone' => [
                 'group' => 'General',
@@ -135,8 +135,8 @@ class PlatformSettingsService
                 'label' => 'MAIL_ADMIN_ADDRESS',
                 'description' => 'Inbox that receives new registration, KYC, deposit, and withdrawal requests.',
                 'type' => 'email',
-                'default' => 'admin@waxxmarket.com',
-                'placeholder' => 'admin@waxxmarket.com',
+                'default' => 'admin@wexmarket.com',
+                'placeholder' => 'admin@wexmarket.com',
             ],
             'mail_admin_name' => [
                 'group' => 'Mail',
@@ -151,8 +151,8 @@ class PlatformSettingsService
                 'label' => 'Mail From Name',
                 'description' => 'Human-readable sender name used in platform emails.',
                 'type' => 'text',
-                'default' => 'WaxxMarket',
-                'placeholder' => 'WaxxMarket',
+                'default' => 'WexMarket',
+                'placeholder' => 'WexMarket',
             ],
             'livechat_widget_code' => [
                 'group' => 'Integrations',

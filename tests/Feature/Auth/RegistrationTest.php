@@ -25,7 +25,7 @@ class RegistrationTest extends TestCase
         Mail::fake();
         PlatformSetting::create([
             'key' => 'mail_admin_address',
-            'value' => 'ops@waxxmarket.com',
+            'value' => 'ops@wexmarket.com',
             'group' => 'Mail',
             'type' => 'email',
         ]);
@@ -47,7 +47,7 @@ class RegistrationTest extends TestCase
         });
 
         Mail::assertSent(UserActionMail::class, function (UserActionMail $mail) {
-            return $mail->hasTo('ops@waxxmarket.com')
+            return $mail->hasTo('ops@wexmarket.com')
                 && $mail->subjectLine === 'New user registration';
         });
     }

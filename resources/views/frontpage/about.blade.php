@@ -38,7 +38,7 @@
 <link href="css/animate.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/intlTelInput.css">
 
-<title>WaxxMarket</title>
+<title>WexMarket</title>
 <link rel="manifest" href="js/manifest.json">
 <meta name="theme-color" content="#0C0F19">
 <meta name="msapplication-navbutton-color" content="#0C0F19">
@@ -54,12 +54,12 @@
 <link href="{{ asset("favicon.ico") }}" rel="icon" type="image/x-icon" />
 <link rel="icon" sizes="192x192" href="{{ asset("frontpage/images/logo.png") }}">
 
-<meta name="keywords" content="WaxxMarket, Options, Crypto" />
+<meta name="keywords" content="WexMarket, Options, Crypto" />
 <meta property="og:image" content="images/logo.png" />
-<meta property="og:site_name" content="WaxxMarket">
-<meta property="og:title" content="Crypto Trading With WaxxMarket" />
-<meta name="description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
-<meta property="og:description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:site_name" content="WexMarket">
+<meta property="og:title" content="Crypto Trading With WexMarket" />
+<meta name="description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
 <meta property="og:type" content="website" />
 
 <script src="js/bootstrap-select.js"></script>
@@ -401,8 +401,8 @@ $(document).ready(function(){
 <div class="container py-5 text-container">
 		<h1>About us</h1>
 		<h1 class="mb-4 text-white">We bring honesty and transparency to financial services technology</h1>
-		<p>Welcome to WaxxMarket, an international online trading firm offering 24 hours access to a diverse range of trading products including forex currency pairs, commodities, futures, indices and stocks.</p>
-		<p>Through WaxxMarket and the world renowned MetaTrader 5 trading platform, you can take advantage of high liquidity, low spreads, mobile trading, technical analysis and even more.</p>
+		<p>Welcome to WexMarket, an international online trading firm offering 24 hours access to a diverse range of trading products including forex currency pairs, commodities, futures, indices and stocks.</p>
+		<p>Through WexMarket and the world renowned MetaTrader 5 trading platform, you can take advantage of high liquidity, low spreads, mobile trading, technical analysis and even more.</p>
 		<div class="row">
 			<div class="col-md-6 py-3">
 				<p>We maintain high standards to keep trading environments secure, and offer the best tailor made trading conditions for every client. We help Forex traders to develop the knowledge and skills they need to trade efficiently and responsibly.</p>
@@ -439,7 +439,7 @@ $(document).ready(function(){
     <div class="gtranslate_wrapper mx-auto d-flex justify-content-center"></div>
 <script>window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":24,"switcher_horizontal_position":"inline","alt_flags":{"en":"usa"}}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
-    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WaxxMarket. All rights reserved.</p>
+    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WexMarket. All rights reserved.</p>
   </div>
 
 </footer>

@@ -88,7 +88,7 @@ class AdminCrudTest extends TestCase
                 'subject' => 'Portfolio review',
                 'heading' => 'Your account update',
                 'message' => 'Your message body.',
-                'header_label' => 'WaxxMarket',
+                'header_label' => 'WexMarket',
                 'header_color' => '#111827',
                 'accent_color' => '#d97706',
                 'footer_text' => 'Footer message.',
@@ -399,9 +399,9 @@ class AdminCrudTest extends TestCase
         $this->actingAs($this->admin)
             ->post(route('admin.settings.update'), [
                 'settings' => [
-                    ['key' => 'mail_admin_address', 'value' => 'ops@waxxmarket.com'],
-                    ['key' => 'support_email', 'value' => 'help@waxxmarket.com'],
-                    ['key' => 'site_name', 'value' => 'WaxxMarket'],
+                    ['key' => 'mail_admin_address', 'value' => 'ops@wexmarket.com'],
+                    ['key' => 'support_email', 'value' => 'help@wexmarket.com'],
+                    ['key' => 'site_name', 'value' => 'WexMarket'],
                     ['key' => 'livechat_widget_code', 'value' => '<script>console.log("chat")</script>'],
                 ],
             ])
@@ -409,14 +409,14 @@ class AdminCrudTest extends TestCase
 
         $this->assertDatabaseHas('platform_settings', [
             'key' => 'mail_admin_address',
-            'value' => 'ops@waxxmarket.com',
+            'value' => 'ops@wexmarket.com',
             'group' => 'Mail',
             'type' => 'email',
         ]);
 
         $this->assertDatabaseHas('platform_settings', [
             'key' => 'support_email',
-            'value' => 'help@waxxmarket.com',
+            'value' => 'help@wexmarket.com',
             'group' => 'General',
             'type' => 'email',
         ]);

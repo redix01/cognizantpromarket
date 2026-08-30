@@ -1,0 +1,1 @@
+import{t as e}from"./app-c0EJj0JG.js";var t=e();function n({className:e=``,alt:n=`WexMarket`}){return(0,t.jsx)(`img`,{src:`/img/logo.png`,alt:n,className:e})}export{n as t};

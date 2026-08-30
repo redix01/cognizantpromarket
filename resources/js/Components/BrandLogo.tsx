@@ -3,7 +3,7 @@ interface BrandLogoProps {
   alt?: string;
 }
 
-export default function BrandLogo({ className = '', alt = 'WaxxMarket' }: BrandLogoProps) {
+export default function BrandLogo({ className = '', alt = 'WexMarket' }: BrandLogoProps) {
   return (
     <img
       src="/img/logo.png"

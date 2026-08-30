@@ -15,7 +15,7 @@ class SupportPageTest extends TestCase
     {
         PlatformSetting::create([
             'key' => 'support_email',
-            'value' => 'help@waxxmarket.com',
+            'value' => 'help@wexmarket.com',
             'group' => 'General',
             'type' => 'email',
         ]);
@@ -41,7 +41,7 @@ class SupportPageTest extends TestCase
             ->assertOk()
             ->assertInertia(fn ($page) => $page
                 ->component('Support')
-                ->where('support.email', 'help@waxxmarket.com')
+                ->where('support.email', 'help@wexmarket.com')
                 ->where('support.phone', '+1 555 0100')
                 ->where('support.livechat_widget_code', '<script>console.log("chat")</script>')
             );

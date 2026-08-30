@@ -295,19 +295,11 @@ button.navbar-toggler {
     background-size: cover;
 }
 
-.hero-image.hero-banner {
-    background: #fff;
-}
-
 .hero-text {
     color: #FFF;
     padding: 60px 0;
     position: relative;
     padding: 120px 0 120px 0;
-}
-
-.hero-banner .hero-text {
-    color: #111;
 }
 
 .hero-text h1 {
@@ -316,20 +308,11 @@ button.navbar-toggler {
     color: #FFF;
 }
 
-.hero-banner .hero-text h1 {
-    color: #111;
-}
-
 .hero-text p {
     font-size: 1.3rem;
     font-weight: 400;
     margin: 20px 0;
     color: #d2d4d8;
-}
-
-.hero-banner .hero-text p,
-.hero-banner .hero-text .text-lightGray {
-    color: #555;
 }
 
 .hero-text .btn {

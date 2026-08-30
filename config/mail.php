@@ -115,7 +115,7 @@ return [
         'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Laravel')),
     ],
 
-    'admin_address' => env('MAIL_ADMIN_ADDRESS', 'admin@waxxmarket.com'),
+    'admin_address' => env('MAIL_ADMIN_ADDRESS', 'admin@wexmarket.com'),
 
     'admin_name' => env('MAIL_ADMIN_NAME', 'Admin'),
 

@@ -38,7 +38,7 @@
 <link href="css/animate.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/intlTelInput.css">
 
-<title>WaxxMarket</title>
+<title>WexMarket</title>
 <link rel="manifest" href="js/manifest.json">
 <meta name="theme-color" content="#0C0F19">
 <meta name="msapplication-navbutton-color" content="#0C0F19">
@@ -54,12 +54,12 @@
 <link href="{{ asset("favicon.ico") }}" rel="icon" type="image/x-icon" />
 <link rel="icon" sizes="192x192" href="{{ asset("frontpage/images/logo.png") }}">
 
-<meta name="keywords" content="WaxxMarket, Options, Crypto" />
+<meta name="keywords" content="WexMarket, Options, Crypto" />
 <meta property="og:image" content="images/logo.png" />
-<meta property="og:site_name" content="WaxxMarket">
-<meta property="og:title" content="Crypto Trading With WaxxMarket" />
-<meta name="description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
-<meta property="og:description" content="Crypto Trading With WaxxMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:site_name" content="WexMarket">
+<meta property="og:title" content="Crypto Trading With WexMarket" />
+<meta name="description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
 <meta property="og:type" content="website" />
 
 <script src="js/bootstrap-select.js"></script>
@@ -401,7 +401,7 @@ $(document).ready(function(){
 <div class="container py-5 text-container">
 		<h5>Crypto Trading</h5>
 		<h1 class="mb-4 text-white">Trade cryptocurrencies on our platform</h1>
-		<p> WaxxMarket is excited to announce the launch of our new cryptocurrency trading platform. Now you can start trading Bitcoin, Ethereum and many more cryptocurrencies quickly, easily and safely from wherever you are — in just seconds. You get great margin trading leverage and short sell options with fast deposits and withdrawals. Our support team is available 24/7/365 to help get you trading on our CySEC-regulated platform with a trading volume of US $11 billion monthly.</p>
+		<p> WexMarket is excited to announce the launch of our new cryptocurrency trading platform. Now you can start trading Bitcoin, Ethereum and many more cryptocurrencies quickly, easily and safely from wherever you are — in just seconds. You get great margin trading leverage and short sell options with fast deposits and withdrawals. Our support team is available 24/7/365 to help get you trading on our CySEC-regulated platform with a trading volume of US $11 billion monthly.</p>
 		<h3>What is a crypto currency</h3>
 		<p>A cryptocurrency like bitcoin is a virtual currency traded peer-to-peer on a blockchain, independent of centralized authorities like banks and governments. Cryptocurrencies are entirely virtual, so they are not backed by physical commodities and have no intrinsic value.</p>
 		<h3>How Do Cryptocurrencies Work?</h3>
@@ -429,7 +429,7 @@ $(document).ready(function(){
     <div class="gtranslate_wrapper mx-auto d-flex justify-content-center"></div>
 <script>window.gtranslateSettings = {"default_language":"en","detect_browser_language":true,"wrapper_selector":".gtranslate_wrapper","flag_size":24,"switcher_horizontal_position":"inline","alt_flags":{"en":"usa"}}</script>
 <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
-    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WaxxMarket. All rights reserved.</p>
+    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WexMarket. All rights reserved.</p>
   </div>
 
 </footer>

@@ -25,10 +25,10 @@ class LandingPagesTest extends TestCase
         }
     }
 
-    public function test_landing_page_mentions_waxxmarket(): void
+    public function test_landing_page_mentions_wexmarket(): void
     {
         $this->get('/')
             ->assertOk()
-            ->assertSee('WaxxMarket', false);
+            ->assertSee('WexMarket', false);
     }
 }

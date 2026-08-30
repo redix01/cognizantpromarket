@@ -65,7 +65,7 @@ export default function AdminLayout({ children }: PropsWithChildren) {
                 <div className="p-6 border-b border-[#1A1A1A] flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <div className="flex flex-col gap-1">
-                            <BrandLogo className="h-10 w-auto object-contain" alt="WaxxMarket Admin" />
+                            <BrandLogo className="h-10 w-auto object-contain" alt="WexMarket Admin" />
                             <span className="text-[10px] font-bold uppercase tracking-widest text-amber-600 pl-1">Admin Panel</span>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ export default function AdminLayout({ children }: PropsWithChildren) {
                 </main>
                 <footer className="p-6 border-t border-[#1A1A1A] bg-[#0A0A0A] text-center">
                     <p className="text-zinc-600 text-xs font-medium">
-                        &copy; 2026 WaxxMarket. Admin Panel.
+                        &copy; 2026 WexMarket. Admin Panel.
                         <span className="mx-2 text-[#222]">|</span>
                         Secure Administration Interface
                     </p>

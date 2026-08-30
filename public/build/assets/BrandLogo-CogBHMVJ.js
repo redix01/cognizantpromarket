@@ -1,1 +1,0 @@
-import{t as e}from"./app-Rjwu56gV.js";var t=e();function n({className:e=``,alt:n=`WaxxMarket`}){return(0,t.jsx)(`img`,{src:`/img/logo.png`,alt:n,className:e})}export{n as t};
