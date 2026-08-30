@@ -1,8 +1,8 @@
 {
-    "short_name": "ElitesGlobalHub",
-    "name": "ElitesGlobalHub",
+    "short_name": "WaxxMarket",
+    "name": "WaxxMarket",
     "lang": "en-UK",
-    "description": "ElitesGlobalHub is totally different from its competitors trying to achieve something special starting with the website design, trading platform, and extremely functional. Since first beginning a few years ago, ElitesGlobalHub has created a name for itself between traders. The broker is magnificent for traders because of its solid trading platform and a diversity of assets to trade.",
+    "description": "WaxxMarket is totally different from its competitors trying to achieve something special starting with the website design, trading platform, and extremely functional. Since first beginning a few years ago, WaxxMarket has created a name for itself between traders. The broker is magnificent for traders because of its solid trading platform and a diversity of assets to trade.",
     "icons": [
         {
             "src": "../images/icon/Icon-36.png",
@@ -60,8 +60,8 @@
             "sizes": "192x192"
         }
     ],
-    "background_color": "#47A145",
-    "theme_color": "#47A145",
+    "background_color": "#D97706",
+    "theme_color": "#D97706",
     "display": "standalone",
     "orientation": "portrait",
     "start_url": "../index?launcher=true"
