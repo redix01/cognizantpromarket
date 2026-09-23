@@ -420,8 +420,16 @@ $(document).ready(function(){
 <div class='hero-image'>
 <div class="container text-center py-4 text-white">
 	<section class="py-5 wow slideInUp">
-		<h2 class='text-center text-white h2 font-bold mb-4 hyphenated'>A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</h2>
-		<p class='text-center text-lightGray text-lg font-normal leading-8'>4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
+		<style>
+			.tv-section-heading { font-weight: 800; line-height: 1.2; letter-spacing: -0.02em; text-wrap: balance; max-width: 900px; margin-left: auto; margin-right: auto; font-size: 2.4rem; }
+			.tv-section-sub { max-width: 720px; margin-left: auto; margin-right: auto; line-height: 1.7; font-size: 1.1rem; }
+			@media (max-width: 768px) {
+				.tv-section-heading { font-size: 1.65rem; line-height: 1.25; padding: 0 0.5rem; }
+				.tv-section-sub { font-size: 0.95rem; line-height: 1.65; padding: 0 0.75rem; }
+			}
+		</style>
+		<h2 class='text-center text-white font-bold mb-3 hyphenated tv-section-heading'>A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</h2>
+		<p class='text-center text-lightGray font-normal tv-section-sub'>4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
 
 <div class='tradingview-widget-wrap' style='max-width: 1100px; margin: 0 auto;'>
 <!-- TradingView Widget BEGIN -->
