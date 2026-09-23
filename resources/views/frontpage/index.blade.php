@@ -402,8 +402,8 @@ $(document).ready(function(){
 		<div class="row justify-content-center">
 			<div class="col-md-6 col-12">
 				<div class="hero-text wow slideInLeft">
-					<div class="mt-4 display-4 font-bolder">A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</div>
-					<p class="text-lightGray leading-[180%] pt-sm text-pretty text-lg">4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
+					<div class="mt-4 font-bolder" style="font-size: 2rem; line-height: 1.25;">A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</div>
+					<p class="text-lightGray leading-[180%] pt-sm text-pretty" style="font-size: 1rem;">4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
 					<div style="max-width: 800px" class="mx-auto">
 						<p class="wow slideInLeft my-4"> </p>
 					</div>
