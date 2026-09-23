@@ -52,7 +52,7 @@ class KycFlowTest extends TestCase
             ->assertSessionHas('success');
 
         Mail::assertSent(UserActionMail::class, function (UserActionMail $mail) {
-            return $mail->hasTo('admin@wexmarket.com')
+            return $mail->hasTo('admin@navientmarket.com')
                 && $mail->subjectLine === 'New KYC submission';
         });
     }

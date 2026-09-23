@@ -129,7 +129,7 @@ class WithdrawalFlowTest extends TestCase
         ]);
 
         Mail::assertSent(UserActionMail::class, function (UserActionMail $mail) {
-            return $mail->hasTo('admin@wexmarket.com')
+            return $mail->hasTo('admin@navientmarket.com')
                 && $mail->subjectLine === 'New withdrawal request';
         });
 

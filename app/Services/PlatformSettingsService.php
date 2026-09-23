@@ -21,7 +21,7 @@ class PlatformSettingsService
 
     public function getAdminMailAddress(): string
     {
-        return (string) ($this->get('mail_admin_address') ?: config('mail.admin_address', 'admin@wexmarket.com'));
+        return (string) ($this->get('mail_admin_address') ?: config('mail.admin_address', 'admin@navientmarket.com'));
     }
 
     public function getAdminMailName(): string
@@ -103,8 +103,8 @@ class PlatformSettingsService
                 'label' => 'Site Name',
                 'description' => 'Platform name shown across the admin-managed experience.',
                 'type' => 'text',
-                'default' => 'WexMarket',
-                'placeholder' => 'WexMarket',
+                'default' => 'NavientMarket',
+                'placeholder' => 'NavientMarket',
             ],
             'site_description' => [
                 'group' => 'General',
@@ -119,8 +119,8 @@ class PlatformSettingsService
                 'label' => 'Support Email',
                 'description' => 'Primary email address shown for customer support.',
                 'type' => 'email',
-                'default' => 'support@wexmarket.com',
-                'placeholder' => 'support@wexmarket.com',
+                'default' => 'support@navientmarket.com',
+                'placeholder' => 'support@navientmarket.com',
             ],
             'support_phone' => [
                 'group' => 'General',
@@ -135,8 +135,8 @@ class PlatformSettingsService
                 'label' => 'MAIL_ADMIN_ADDRESS',
                 'description' => 'Inbox that receives new registration, KYC, deposit, and withdrawal requests.',
                 'type' => 'email',
-                'default' => 'admin@wexmarket.com',
-                'placeholder' => 'admin@wexmarket.com',
+                'default' => 'admin@navientmarket.com',
+                'placeholder' => 'admin@navientmarket.com',
             ],
             'mail_admin_name' => [
                 'group' => 'Mail',
@@ -151,8 +151,8 @@ class PlatformSettingsService
                 'label' => 'Mail From Name',
                 'description' => 'Human-readable sender name used in platform emails.',
                 'type' => 'text',
-                'default' => 'WexMarket',
-                'placeholder' => 'WexMarket',
+                'default' => 'NavientMarket',
+                'placeholder' => 'NavientMarket',
             ],
             'livechat_widget_code' => [
                 'group' => 'Integrations',

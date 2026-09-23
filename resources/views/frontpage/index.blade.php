@@ -38,7 +38,7 @@
 <link href="css/animate.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/intlTelInput.css">
 
-<title>WexMarket</title>
+<title>NavientMarket</title>
 <link rel="manifest" href="js/manifest.json">
 <meta name="theme-color" content="#0C0F19">
 <meta name="msapplication-navbutton-color" content="#0C0F19">
@@ -54,12 +54,12 @@
 <link href="{{ asset("favicon.ico") }}" rel="icon" type="image/x-icon" />
 <link rel="icon" sizes="192x192" href="{{ asset("frontpage/images/logo.png") }}">
 
-<meta name="keywords" content="WexMarket, Options, Crypto" />
+<meta name="keywords" content="NavientMarket, Options, Crypto" />
 <meta property="og:image" content="images/logo.png" />
-<meta property="og:site_name" content="WexMarket">
-<meta property="og:title" content="Crypto Trading With WexMarket" />
-<meta name="description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
-<meta property="og:description" content="Crypto Trading With WexMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:site_name" content="NavientMarket">
+<meta property="og:title" content="Crypto Trading With NavientMarket" />
+<meta name="description" content="Crypto Trading With NavientMarket, is totally different from its competitors trying to achieve something special starting with the...">
+<meta property="og:description" content="Crypto Trading With NavientMarket, is totally different from its competitors trying to achieve something special starting with the...">
 <meta property="og:type" content="website" />
 
 <script src="js/bootstrap-select.js"></script>
@@ -402,7 +402,7 @@ $(document).ready(function(){
 		<div class="row justify-content-center">
 			<div class="col-md-6 col-12">
 				<div class="hero-text wow slideInLeft">
-					<div class="mt-4 display-4 font-bolder">All your trading essentials integrated into one app</div>
+					<div class="mt-4 display-4 font-bolder">A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</div>
 					<p class="text-lightGray leading-[180%] pt-sm text-pretty text-lg">4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
 					<div style="max-width: 800px" class="mx-auto">
 						<p class="wow slideInLeft my-4"> </p>
@@ -420,43 +420,96 @@ $(document).ready(function(){
 <div class='hero-image'>
 <div class="container text-center py-4 text-white">
 	<section class="py-5 wow slideInUp">
-		<h2 class='text-center text-white h2 font-bold mb-4 hyphenated'>Multiple ways to trade</h2>
-		<p class='text-center text-lightGray text-lg font-normal leading-8'>Experience trading excellence on the go, from any browser or desktop, with WexMarket .
+		<h2 class='text-center text-white h2 font-bold mb-4 hyphenated'>A smarter way to trade, with every essential tool, insight, and capability unified in one seamless app</h2>
+		<p class='text-center text-lightGray text-lg font-normal leading-8'>4000+ of your favourite assets, superior charts, and advanced trading tools to help you get ahead.</p>
 
-Trade your way, every day!</p>
-
-<div class=''>
-<video preload="auto" autoplay loop muted  playsinline webkit-playsinline x5-playsinline style="width: 100%; height: 100%;" src="medias/play_721p.mp4"></video>
-<a href="{{ route("register") }}" class="btn btn-primary mx-auto h2 px-2 mt-3">Try Now</a>
+<div class='tradingview-widget-wrap' style='max-width: 1100px; margin: 0 auto;'>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/?utm_source=cognizantpromarket&utm_medium=widget_new&utm_campaign=market-overview" rel="noopener nofollow" target="_blank"><span class="blue-text">World markets</span></a><span class="trademark"> by TradingView</span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+    "colorTheme": "dark",
+    "dateRange": "12M",
+    "showChart": true,
+    "locale": "en",
+    "width": "100%",
+    "height": "600",
+    "largeChartUrl": "",
+    "isTransparent": true,
+    "showSymbolLogo": true,
+    "showFloatingTooltip": true,
+    "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+    "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+    "gridLineColor": "rgba(240, 243, 250, 0)",
+    "scaleFontColor": "rgba(134, 137, 147, 1)",
+    "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+    "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+    "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+    "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+    "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+    "tabs": [
+      {
+        "title": "Stocks",
+        "symbols": [
+          { "s": "NASDAQ:AAPL", "d": "Apple Inc." },
+          { "s": "NASDAQ:ADBE", "d": "Adobe Inc." },
+          { "s": "NASDAQ:NVDA", "d": "NVIDIA Corporation" },
+          { "s": "NASDAQ:TSLA", "d": "Tesla, Inc." },
+          { "s": "NASDAQ:AMZN", "d": "Amazon.com, Inc." },
+          { "s": "NASDAQ:META", "d": "Meta Platforms Inc Class A" },
+          { "s": "NASDAQ:AMD", "d": "Advanced Micro Devices, Inc." },
+          { "s": "NASDAQ:GOOGL", "d": "Alphabet Inc. Class A" }
+        ],
+        "originalTitle": "Stocks"
+      },
+      {
+        "title": "Forex",
+        "symbols": [
+          { "s": "FX:GBPJPY", "d": "GBP/JPY" },
+          { "s": "FX:AUDCAD", "d": "AUD/CAD" },
+          { "s": "FX:EURUSD", "d": "EUR/USD" },
+          { "s": "FX:EURTRY", "d": "EUR/TRY" },
+          { "s": "FX:USDNOK", "d": "USD/NOK" },
+          { "s": "FX:USDJPY", "d": "USD/JPY" }
+        ],
+        "originalTitle": "Forex"
+      },
+      {
+        "title": "Crypto",
+        "symbols": [
+          { "s": "BITSTAMP:BTCUSD", "d": "Bitcoin / USD" },
+          { "s": "BITSTAMP:ETHUSD", "d": "Ethereum / USD" },
+          { "s": "BITSTAMP:XRPUSD", "d": "Ripple / USD" },
+          { "s": "COINBASE:SOLUSD", "d": "Solana / USD" },
+          { "s": "BINANCE:BNBUSDT", "d": "BNB / USDT" }
+        ],
+        "originalTitle": "Crypto"
+      },
+      {
+        "title": "Indices",
+        "symbols": [
+          { "s": "FOREXCOM:SPXUSD", "d": "S&P 500" },
+          { "s": "FOREXCOM:NSXUSD", "d": "Nasdaq 100" },
+          { "s": "FOREXCOM:DJI", "d": "Dow 30" },
+          { "s": "INDEX:NKY", "d": "Nikkei 225" },
+          { "s": "INDEX:DEU40", "d": "DAX Index" }
+        ],
+        "originalTitle": "Indices"
+      }
+    ]
+  }
+  </script>
 </div>
-<ul class="nav nav-tabs wow slideInLeft" id="myTab" role="tablist">
-
-<li class="nav-item">
-    <a class="nav-link active" id="forex-tab" data-toggle="tab" href="#forex" role="tab" aria-controls="forex" aria-selected="false">Forex</a>
-  </li>  
-<li class="nav-item">
-    <a class="nav-link" id="stocks-tab" data-toggle="tab" href="#stocks" role="tab" aria-controls="stocks" aria-selected="true">Stocks</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="crypto-tab" data-toggle="tab" href="#crypto" role="tab" aria-controls="crypto" aria-selected="false">Crypto</a>
-  </li>
-</ul>
-<div class="tab-content mb-4 mt-5 wow slideInUp" id="myTabContent">
-  <div class="tab-pane fade" id="stocks" role="tabpanel" aria-labelledby="home-tab">
-	
-  <div class="w-full lg:px-sm"><ul class="text-uppercase InstrumentsTableHeader_InstrumentsTableHeader__a4duZ relative font-normal text-xs text-shadeBlue "><li class="min-w-[180px]"><div>Instrument</div></li><li class="min-w-[100px]"><div>Buy</div></li><li class="min-w-[100px]"><div>Sell</div></li><li class="invisible"><div></div></li></ul><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/FB.OQ.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">Facebook <span class="uppercase text-shadeBlue font-normal">(FB.OQ)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">666.85</span></li><li class="flex min-w-[100px]"><span class=" ">665.5163</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/NFLX.OQ.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">AMAZON <span class="uppercase text-shadeBlue font-normal">(AMZN.OQ)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">1217.94</span></li><li class="flex min-w-[100px]"><span class=" ">1216.478472</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/AAPL.OQ.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">APPLE <span class="uppercase text-shadeBlue font-normal">(AAPL.OQ)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">203.27</span></li><li class="flex min-w-[100px]"><span class=" ">202.985422</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/GOOGL.OQ.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">GOOGLE <span class="uppercase text-shadeBlue font-normal">(GOOGL.OQ)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">166.18</span></li><li class="flex min-w-[100px]"><span class=" ">165.84764</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div>
+<!-- TradingView Widget END -->
+<div class="text-center mt-3">
+<a href="{{ route("register") }}" class="btn btn-primary mx-auto h2 px-4 mt-3">Try Now</a>
 </div>
-</div>
-  <div class="tab-pane fade" id="crypto" role="tabpanel" aria-labelledby="profile-tab">
-	<div class="w-full lg:px-sm"><ul class="text-uppercase InstrumentsTableHeader_InstrumentsTableHeader__a4duZ relative font-normal text-xs text-shadeBlue "><li class="min-w-[180px]"><div>Instrument</div></li><li class="min-w-[100px]"><div>Buy</div></li><li class="min-w-[100px]"><div>Sell</div></li><li class="invisible"><div></div></li></ul><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/XRPUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">Ripple/USD <span class="uppercase text-shadeBlue font-normal">(XRPUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">2.8390</span></li><li class="flex min-w-[100px]"><span class=" ">0.3529</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/BTCUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">Bitcoin/USD <span class="uppercase text-shadeBlue font-normal">(BTCUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">112,417.6541</span></li><li class="flex min-w-[100px]"><span class=" ">112,642.9399</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/ETHUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">ETH/USD <span class="uppercase text-shadeBlue font-normal">(ETHUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">4,188.2484</span></li><li class="flex min-w-[100px]"><span class=" ">4,179.8719</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/SOLUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">Solana/USD <span class="uppercase text-shadeBlue font-normal">(SOLUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">215.9811</span></li><li class="flex min-w-[100px]"><span class=" ">215.5491</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/ADAUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">Cardano/USD <span class="uppercase text-shadeBlue font-normal">(ADAUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">0.7909</span></li><li class="flex min-w-[100px]"><span class=" ">0.7893</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div></div>
-  </div>
-  <div class="tab-pane fade active show" id="forex" role="tabpanel" aria-labelledby="contact-tab">
-	<div class="w-full lg:px-sm"><ul class="text-uppercase InstrumentsTableHeader_InstrumentsTableHeader__a4duZ relative font-normal text-xs text-shadeBlue "><li class="min-w-[180px]"><div>Instrument</div></li><li class="min-w-[100px]"><div>Buy</div></li><li class="min-w-[100px]"><div>Sell</div></li><li class="invisible"><div></div></li></ul><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/GBPJPY.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">GBP/JPY <span class="uppercase text-shadeBlue font-normal">(GBPJPY)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">199.66</span></li><li class="flex min-w-[100px]"><span class=" ">199.26</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/AUDCAD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">AUD/CAD <span class="uppercase text-shadeBlue font-normal">(AUDCAD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">0.9130</span></li><li class="flex min-w-[100px]"><span class=" ">0.9167</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/EURUSD.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">EUR/USD <span class="uppercase text-shadeBlue font-normal">(EURUSD)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">1.1801</span></li><li class="flex min-w-[100px]"><span class=" ">1.1777</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/EURTRY.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">EUR/TRY <span class="uppercase text-shadeBlue font-normal">(EURTRY)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">48.8973</span></li><li class="flex min-w-[100px]"><span class=" ">48.7995</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div><div class="border-sm"><ul class="InstrumentsTableRow_InstrumentsTableRow__qhq30 relative bg-darkBlack text-sm text-white border border-darkBlack/10 rounded-lg mb-xs hover:bg-[#0d0f13] "><li class="flex min-w-[180px]"><a href="{{ route("register") }}" target="_blank" class="flex flex-g items-center rtl:-mr-[0.75rem]" rel="noreferrer"><div class="sc-7dd21f41-9 gqhDtH" style="background-image: url(_https_/d2f911aicdllsf.cloudfront.net/symbol_icons/USDNOK.html), url(&quot;https://files.naga.com/A.png&quot;); width: 27px;"></div><div class="font-semibold uppercase rtl:mr-[0.75rem]">USD/NOK <span class="uppercase text-shadeBlue font-normal">(USDNOK)</span></div></a></li><li class="flex min-w-[100px]"><span class=" ">9.8960</span></li><li class="flex min-w-[100px]"><span class=" ">9.8762</span></li><li class="flex justify-end sm-none"><a href="{{ route("register") }}" target="_blank" rel="noreferrer"><div class="px-2 py-1.5 bg-danger text-decoration-none rounded"><div class="text-white text-xs font-semibold font-['Inter'] text-center">Trade</div></div></a></li></ul></div></div>
-  </div>
 </div>
 
 
-		<div class="row">
+<div class="row">
 		<h2 class="text-center text-white h2 mb-md hyphenated mx-auto mt-5 mb-2">4000+ assets. A world of trading possibilities</h2>
 		<div class="text-center text-lightGray text-lg leading-8 mx-auto lg:max-w-[750px]">Access the world’s most sought-after assets. CFDs on stocks, Forex, indices, commodities, ETFs, bonds and crypto — you can trade them all.</div>
 		<a href="{{ route("register") }}" class="btn btn-primary mx-auto my-3">Get started</a>
@@ -534,7 +587,7 @@ margin: 0 auto;" src="medias/play_725p.mp4"></video></div>
 	<section class="py-5">
 		<div class="py-4 section-title">
 			<h2 class="mb-4">Built for today’s ambitious earners</h2>
-			<p class="text-muted">Thousands of forward-thinking users rely on WexMarket everyday to turbo-charge their financial operations</p>
+			<p class="text-muted">Thousands of forward-thinking users rely on NavientMarket everyday to turbo-charge their financial operations</p>
 		</div>
 		<div class="marquee-parent">
 			<div class="row justify-content-center wow slideInLeft">
@@ -651,7 +704,7 @@ margin: 0 auto;" src="medias/play_725p.mp4"></video></div>
 						<div class="card-body text-left shadow-sm rounded-lg">
 							<div style="color: #e94a15"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
 							<h5 class="my-3">"Amazing broker"</h5>
-							<p class="text-muted">WexMarket is one of the best trading broker I’ve used since i started crypto trading. With their advanced trading software and my personal knowledge I’ve managed to earn over $6m</p>
+							<p class="text-muted">NavientMarket is one of the best trading broker I’ve used since i started crypto trading. With their advanced trading software and my personal knowledge I’ve managed to earn over $6m</p>
 							<hr/>
 							<div class="d-flex justify-content-center">
 								<div class="mr-auto my-auto">
@@ -744,7 +797,7 @@ $('.marquee').marquee({
 @if(!empty($livechatWidgetCode))
 {!! $livechatWidgetCode !!}
 @endif
-    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 WexMarket. All rights reserved.</p>
+    <p class="mb-0 mt-md-4 wow slideInLeft text-uppercase" >© 2016 - 2026 NavientMarket. All rights reserved.</p>
   </div>
 
 </footer>
